@@ -18,7 +18,7 @@ class Database {
   connect() {
     mongoose
       .connect(
-        "mongodb+srv://admin:admin@twitterclonecluster.ssof3vo.mongodb.net/?retryWrites=true&w=majority&appName=TwitterCloneCluster"
+// mongodb url
       )
       .then(() => {
         console.log("database connection successful");
